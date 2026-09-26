@@ -4,7 +4,7 @@ An end-to-end **ELT data engineering project** built with **dbt and Snowflake** 
 
 ## 🏗️ Data Architecture
 
-![Data Architecture](docs/Screenshot 2026-09-26 200828.png)
+[Data Architecture](docs/architecture-netflix.png)
 
 ## 🛠️ Tech Stack
 
