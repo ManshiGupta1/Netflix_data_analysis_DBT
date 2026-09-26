@@ -1,0 +1,20 @@
+[project]
+name = "ntflix-analysis-dbt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "manshi gupta", email = "manshigupta33@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-snowflake>=1.12.1",
+]
+
+[project.scripts]
+ntflix-analysis-dbt = "ntflix_analysis_dbt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
